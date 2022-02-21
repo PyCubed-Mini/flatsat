@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "PyCubed Mini avionics-motherboard")(type "Legacy")(uri "/Users/jbwillis/research/pycubed-mini/avionics-motherboard/mainboard-rescue.lib")(options "")(descr ""))
+  (lib (name "PyCubed Mini solar")(type "Legacy")(uri "/Users/jbwillis/research/pycubed-mini/SolarPanels/Solar-Panel-X/SolarCellX_v3-rescue.lib")(options "")(descr ""))
+)
