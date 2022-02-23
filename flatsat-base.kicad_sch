@@ -1033,6 +1033,7 @@
     )
   )
 
+
   (junction (at 58.42 182.88) (diameter 0) (color 0 0 0 0)
     (uuid 3397e49d-d93e-45e5-9749-47a80df3e46f)
   )
@@ -1050,10 +1051,10 @@
   )
 
   (no_connect (at 144.78 129.54) (uuid 026e7b99-7a49-4b52-ae97-2832aa2100e2))
-  (no_connect (at 223.52 129.54) (uuid 026e7b99-7a49-4b52-ae97-2832aa2100e2))
-  (no_connect (at 223.52 86.36) (uuid 026e7b99-7a49-4b52-ae97-2832aa2100e2))
+  (no_connect (at 223.52 129.54) (uuid 026e7b99-7a49-4b52-ae97-2832aa2100e3))
+  (no_connect (at 223.52 86.36) (uuid 026e7b99-7a49-4b52-ae97-2832aa2100e4))
   (no_connect (at 144.78 43.18) (uuid 4b037cb4-52c0-4073-8911-d1899fddecbc))
-  (no_connect (at 223.52 43.18) (uuid 4b037cb4-52c0-4073-8911-d1899fddecbc))
+  (no_connect (at 223.52 43.18) (uuid 4b037cb4-52c0-4073-8911-d1899fddecbd))
 
   (wire (pts (xy 157.48 160.02) (xy 160.02 160.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2703,7 +2704,7 @@
     (property "Value" "Conn_01x10_Male" (id 1) (at 102.87 180.3399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x10_P1.27mm_Vertical" (id 2) (at 101.6 177.8 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (id 2) (at 101.6 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 101.6 177.8 0)
@@ -2848,7 +2849,7 @@
     (uuid eefa62b0-7985-4153-9454-98c24aeb544a)
     (property "Reference" "J1" (id 0) (at 54.61 30.48 0))
     (property "Value" "xf2m-2415-1a-symbols" (id 1) (at 54.61 33.02 0))
-    (property "Footprint" "PyCubed Main:XF2M-2415-1A" (id 2) (at 62.23 35.56 0)
+    (property "Footprint" "PyCubed-Mini Main:XF2M-2415-1A" (id 2) (at 62.23 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://docs-emea.rs-online.com/webdocs/0fd2/0900766b80fd28a0.pdf" (id 3) (at 62.23 38.1 0)
@@ -2940,7 +2941,7 @@
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
     (path "/eefa62b0-7985-4153-9454-98c24aeb544a"
-      (reference "J1") (unit 1) (value "xf2m-2415-1a-symbols") (footprint "PyCubed Main:XF2M-2415-1A")
+      (reference "J1") (unit 1) (value "xf2m-2415-1a-symbols") (footprint "PyCubed-Mini Main:XF2M-2415-1A")
     )
     (path "/405f63ce-92fd-4885-8744-aea1af979a53"
       (reference "J2") (unit 1) (value "XF2M-1015-1A-symbols") (footprint "PyCubed-Mini Solar:XF2M-1015-1A")
@@ -2976,7 +2977,7 @@
       (reference "J12") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
     )
     (path "/cabb4d71-b835-4085-a569-a6974d8b4662"
-      (reference "J13") (unit 1) (value "Conn_01x10_Male") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x10_P1.27mm_Vertical")
+      (reference "J13") (unit 1) (value "Conn_01x10_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
   )
 )
