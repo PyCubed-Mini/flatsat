@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name "PyCubed-Mini Main")(type "KiCad")(uri "/Users/jbwillis/research/pycubed-mini/avionics-motherboard/pycubed.pretty")(options "")(descr ""))
-  (lib (name "PyCubed-Mini Solar")(type "KiCad")(uri "/Users/jbwillis/research/pycubed-mini/SolarPanels/Solar-Panel-Minus-Y/ypanel.pretty")(options "")(descr ""))
+  (lib (name "cameraboard")(type "KiCad")(uri "${KIPRJMOD}/kicad-libs/cameraboard.pretty")(options "")(descr ""))
+  (lib (name "mainboard")(type "KiCad")(uri "${KIPRJMOD}/kicad-libs/mainboard.pretty")(options "")(descr ""))
+  (lib (name "solarpanels")(type "KiCad")(uri "${KIPRJMOD}/kicad-libs/solarpanels.pretty")(options "")(descr ""))
 )
